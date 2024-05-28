@@ -14,10 +14,10 @@
     <header class="fixed-top py-4">
 
         <div class="container-fluid ms_white-bg">
-            <div class="row align-items-center">
+            <div class="row align-items-center justify-content-between flex-nowrap">
 
                 <!-- logo -->
-                <div class="col-1 flex-shrink-0">
+                <div class="col-1 col-md-2">
 
                     <div class="ms_image-container d-md-none">
                         <img class="ms_image" src="img/mobile-logo.png" alt="">
@@ -31,13 +31,39 @@
                 </div>
 
                 <!-- barra ricerca -->
-                <div class="col-10">
-
+                <div class="col-10 col-md-8">
+                    <input type="text" class="form-control" placeholder=" Prova a cercare: Lezioni di Laravel">
                 </div>
 
                 <!-- icone -->
-                <div class="col-1 flex-shrink-0">
+                <div class="col-1 col-md-2 flex-shrink-0">
                     
+                    <div class="row row-cols-md-4 justify-content-end align-items-center ">
+
+                        <!-- icone md > -->
+                        <div class="col d-none d-md-block">
+                            <a  href=""><i class="fa-solid fa-list-ul"></i></a>
+                        </div>
+                        
+                        <div class="col d-none d-md-block">
+                            <a  href=""><i class="fa-solid fa-circle-question"></i></a>
+                        </div>
+
+                        <div class="col d-none d-md-block">
+                            <a  href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+
+                        <div class="col">
+                            
+                            <i class="fa-solid fa-bell"></i>
+
+                        </div>                
+
+                    </div>
+                    
+                        
+
                 </div>
 
             </div>

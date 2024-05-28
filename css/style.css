@@ -24,7 +24,11 @@ header .ms_white-bg > .row {
     height: 100%;
 }
 
-
+header nav ul {
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: -2rem;
+}
 
 
 /* NAV */
