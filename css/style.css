@@ -1,10 +1,33 @@
-/* debug */
+.ms_image-container {
+    height: 32px;
+}
+.ms_image {
+    height: 100%;
+}
+
+
+
+
+/* HEADER */
 header {
     width: 100%;
     height: 80px;
-    background-color: aqua;
+    background-color: #f8f9fa;
 }
 
+header .ms_white-bg {
+    background-color: #fff;
+    height: 100%;
+}
+
+header .ms_white-bg > .row {
+    height: 100%;
+}
+
+
+
+
+/* NAV */
 nav {
     height: calc(100vh - 80px);
     width: 80px;
@@ -12,6 +35,9 @@ nav {
     background-color: brown;
 }
 
+
+
+/* MAIN */
 main {
     width: calc(100vw - 80px);
     max-height: calc(100vh - 80px);
@@ -20,7 +46,17 @@ main {
     overflow-y: auto;
 }
 
+.ms_box {
+    border-radius: 0.5em;
+    /* debug */
+    border: 1px solid black;
+    height: 300px;
+    background-color: chartreuse;
+}
 
+
+
+/* BREAKPOINT TABLET > */
 @media all and (min-width: 768px) {
     nav {
         width: 160px;
