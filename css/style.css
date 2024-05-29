@@ -92,6 +92,8 @@ main {
     border-radius: 0.5em 0.5em 0 0;
 }
 
+
+
 /* PROSSIME CLASSI */
 .ms_wide-col {
     min-width: 40%;
@@ -121,6 +123,39 @@ main {
     border-bottom: 1px solid rgba(143, 143, 143, 0.413);
     
 }
+
+
+
+/* COLS DX */
+.ms_internal-box-p {
+    padding-top: calc(var(--bs-gutter-x) * .5);
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
+}
+
+.ms_inner-box {
+    margin: auto;
+    border-radius: 0.5em;
+    border: 1px solid rgba(143, 143, 143, 0.413);
+}
+
+.ms_inner-box > div {
+    border-bottom: 1px solid rgba(143, 143, 143, 0.413);
+}
+
+.ms_inner-box > div:last-child {
+    border-bottom: none;
+}
+
+/* UTENTI */
+#ms_utenti-link {
+    color: #1b72e8;
+    text-decoration: underline;
+}
+
+
+
+
+
 
 /* BREAKPOINT MEDIUM > */
 @media all and (min-width: 992px) {
