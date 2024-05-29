@@ -1,6 +1,7 @@
 .ms_image-container {
     height: 32px;
 }
+
 .ms_image {
     height: 100%;
 }
@@ -9,7 +10,10 @@
     text-align: center;
 }
 
-
+a {
+    color: #000000;
+    text-decoration: none;
+}
 
 /* HEADER */
 header {
@@ -27,6 +31,11 @@ header .ms_white-bg > .row {
     height: 100%;
 }
 
+.ms_dropdown-toggle::after {
+    font-family: "fontawesome";
+    content: "\f0f3";
+    color: #ff9004;
+}
 
 
 /* NAV */
@@ -34,10 +43,19 @@ nav {
     height: calc(100vh - 80px);
     width: 80px;
     margin-top: 80px;
-    background-color: brown;
+    background-image: url(../img/sidebar-bg.png);
+    
 }
 
-
+.ms_tool {
+    margin: 0 1rem 0.5rem;
+    padding: 0.3rem 0;
+    background-color: none;
+    transition: background-color 0.5s ease;
+}
+.ms_tool:hover {
+    background-color: grey;
+}
 
 /* MAIN */
 main {
@@ -66,6 +84,10 @@ main {
 
     nav .ms_text-center {
         text-align: start;
+    }
+
+    nav .fa-solid {
+        margin-right: 1rem;
     }
     main {
         width: calc(100vw - 160px);
