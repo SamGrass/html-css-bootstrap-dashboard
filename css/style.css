@@ -87,7 +87,8 @@ main {
 }
 
 .ms_wide-col {
-    width: 60%;
+    max-width: 60%;
+    min-width: 40%;
 }
 
 .ms_code-symbol {
@@ -104,8 +105,8 @@ main {
 }
 
 
-/* BREAKPOINT TABLET > */
-@media all and (min-width: 768px) {
+/* BREAKPOINT MEDIUM > */
+@media all and (min-width: 992px) {
 
     /* NAV */
     nav {
@@ -127,3 +128,4 @@ main {
         width: calc(100vw - 160px);
     }
 }
+
