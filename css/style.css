@@ -15,6 +15,9 @@ a {
     text-decoration: none;
 }
 
+
+
+
 /* HEADER */
 header {
     width: 100%;
@@ -36,6 +39,12 @@ header .ms_white-bg > .row {
     content: "\f0f3";
     color: #ff9004;
 }
+
+header a {
+    color: #5b5858;
+}
+
+
 
 
 /* NAV */
@@ -66,6 +75,10 @@ main {
     overflow-y: auto;
 }
 
+.ms_blue-bg {
+    background-color: #1b72e8;
+    color: #fff;
+}
 .ms_box {
     border-radius: 0.5em;
     /* debug */
@@ -78,6 +91,8 @@ main {
 
 /* BREAKPOINT TABLET > */
 @media all and (min-width: 768px) {
+
+    /* NAV */
     nav {
         width: 160px;
     }
@@ -89,6 +104,10 @@ main {
     nav .fa-solid {
         margin-right: 1rem;
     }
+
+
+
+    /* MAIN */
     main {
         width: calc(100vw - 160px);
     }
