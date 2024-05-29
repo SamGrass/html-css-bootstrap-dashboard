@@ -71,7 +71,6 @@ main {
     width: calc(100vw - 80px);
     max-height: calc(100vh - 80px);
     margin-top: 80px;
-    background-color: blueviolet;
     overflow-y: auto;
 }
 
@@ -79,14 +78,30 @@ main {
     background-color: #1b72e8;
     color: #fff;
 }
+
 .ms_box {
     border-radius: 0.5em;
     /* debug */
     border: 1px solid black;
     height: 300px;
-    background-color: chartreuse;
 }
 
+.ms_wide-col {
+    width: 60%;
+}
+
+.ms_code-symbol {
+    display: inline-block;
+    width: 21px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 5px;
+}
+
+.ms_code-symbol img {
+    max-width: 100%;
+    border-radius: 50%;
+}
 
 
 /* BREAKPOINT TABLET > */
