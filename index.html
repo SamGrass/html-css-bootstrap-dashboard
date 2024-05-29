@@ -130,12 +130,88 @@
                     <div class="row row-cols-1 row-cols-lg-3 flex-lg-row-reverse">
 
                         <!-- inserire offcanvas -->
-                        <div class="col">Nuovo Studente</div>
+                        <div class="col col-lg-2 mb-2 mb-lg-0">
+                            <span class="me-2">Nuovo studente</span>
+                            <a class="btn ms_btn-blue" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-plus"></i>
+                            </a> 
+                            
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+
+                                <form class="offcanvas-body">
+                                    <div class="row">
+
+                                        <div class="col-12 col-lg-6 mb-3">
+                                            <label for="text" class="form-label">Nome</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-12 col-lg-6 mb-3">
+                                            <label for="text" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-12 col-lg-6 mb-3">
+                                            <label for="text" class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="col-12 col-lg-6 mb-3">
+                                            <label for="text" class="form-label">Città</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-12 col-lg-3 mb-3">
+                                            <label for="text" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-12 col-lg-3 mb-3">
+                                            <label for="text" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="formFile" class="form-label">Foto</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                          </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                                        </div>
+
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <div class="col col-lg-4 mb-2 mb-lg-0">
+                            Studenti online negli ultimi 30 minuti
+                            <h4 class="mt-2">125</h4>
+                        </div>
 
                         <!-- breadcrumb -->
-                        <div class="col">Boolean</div>
-
-                        <div class="col">Studenti online negli ultimi 30 minuti</div>
+                        <div class="col col-lg-6 mb-2 mb-lg-0">
+                            <h2 class="d-inline-block">Boolean</h2> 
+                            <span  class="ms_btn-breadcrumb">Piano blaze</span>
+                            <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                  <li class="breadcrumb-item"><a class="ms_btn-breadcrumb" href="#">3 app</a></li>
+                                  <li class="breadcrumb-item d-lg-none"><a class="ms_btn-breadcrumb" href="#"><i class="fa-solid fa-plus"></i></a></li>
+                                  <li class="breadcrumb-item d-none d-lg-inline"><a class="ms_btn-breadcrumb" href="#">Boolean mobile app</a></li>
+                                  <li class="breadcrumb-item d-none d-lg-inline"><a class="ms_btn-breadcrumb" href="#">Home</a></li>
+                                  <li class="breadcrumb-item active d-none d-lg-inline" aria-current="page"><span  class="ms_btn-breadcrumb">Library</span></li>
+                                </ol>
+                              </div>
+                        </div>
                         
 
                     </div>
