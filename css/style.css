@@ -15,7 +15,10 @@ a {
     text-decoration: none;
 }
 
-
+.ms_btn {
+    border-radius: 0.3em;
+    padding: 0.2em 0.4em;
+}
 
 
 /* HEADER */
@@ -53,9 +56,12 @@ nav {
     width: 80px;
     margin-top: 80px;
     background-image: url(../img/sidebar-bg.png);
-    
+    background-color: #18162c;
 }
 
+nav a {
+    color: #fff;
+}
 .ms_tool {
     margin: 0 1rem 0.5rem;
     padding: 0.3rem 0;
@@ -81,9 +87,7 @@ main {
 
 .ms_box {
     border-radius: 0.5em;
-    /* debug */
     border: 1px solid rgba(143, 143, 143, 0.413);
-    min-height: 300px;
 }
 
 .ms_grey-bg {
@@ -140,6 +144,32 @@ main {
 .ms_code-symbol img {
     max-width: 100%;
     border-radius: 50%;
+}
+
+.ms_btn-green {
+    color: #fff;
+    background-color: #198754;
+}
+
+.ms_btn-red {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.ms_btn-yellow {
+    color: #fff;
+    background-color: #ffc107;  
+}
+
+.ms_btn-grey {
+    color: #6c757d;
+    border: 1px solid #6c757d;
+    transition: all ease 0.2s;
+    padding: 0.4em 0.4em;
+}
+.ms_btn-grey:hover {
+    color: #fff;
+    background-color:  #6c757d;
 }
 
 /* FAQ */
